@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background: url("/public/love_background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.love-form-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(255, 192, 203, 0.9); /* Light pink overlay */
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #ff69b4; /* Hot pink */
+}
+
+.fun-nicknames {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #fff;
+}
+
+label {
+  display: block;
+  margin: 15px 0 5px;
+  font-size: 1.1rem;
+}
+
+input,
+textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #ff69b4;
+  border-radius: 10px;
+  outline: none;
+}
+
+button {
+  background: #ff69b4;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #ff1493; /* Deep pink */
+}
+
+.thank-you-message {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #ff69b4;
+}
+h3 {
+  margin-top: 20px;
+  color: #ff69b4;
+  font-size: 1.5rem;
+}
+
+input[type="number"] {
+  width: 50%;
+}

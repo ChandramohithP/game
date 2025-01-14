@@ -25,7 +25,8 @@ const LoveForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:5000/api/submit", formData);
+      const response = await axios.post("https://my-game-mohi.onrender.com/api/submit", formData);
+
       setResponseMessage(`Thank you kutta, ${formData.name}! 💖 Your ratings and message have been received!`);
     } catch (error) {
       setResponseMessage("Oops! Something went wrong. Please try again later.");
